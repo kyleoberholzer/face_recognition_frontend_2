@@ -22,7 +22,7 @@ class SignIn extends React.Component { //has been converted into a smart compone
   onSubmitSignIn = (event) => {
     event.preventDefault(); // prevents dafault form from being submitted
 
-    fetch('https://nameless-sands-57279-107bbf6064ff.herokuapp.com/signin', {
+    fetch('https://face-recognition-backend-2.onrender.com/signin', {
       method: 'post',
       headers: {'content-type': 'application/json'},
       body: JSON.stringify ({

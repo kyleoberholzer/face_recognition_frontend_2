@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family:'Courier New', Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #dbbea1, #FAF0E6); 
+  min-height: 100vh;
+}
+
+button{
+  cursor: pointer;
+}
